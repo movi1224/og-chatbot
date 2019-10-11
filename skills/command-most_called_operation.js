@@ -241,7 +241,9 @@ module.exports = function(controller) {
   controller.hears(
     ["most five called operation",
      "most 5 called operation",
-     "bottom 5 operation"],
+     "top 5 called operation",
+     "top five called operation",
+     "top 5 operation"],
     "direct_message,direct_mention",
     function(bot, message) {
       var txt = "Your most 5 called operations are " + result7;
